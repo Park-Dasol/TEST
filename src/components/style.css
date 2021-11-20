@@ -1,0 +1,19 @@
+
+.scroll {
+  width: 100%; 
+  height : 600px;
+  background-color: #F6F6F8; 
+  overflow-y:scroll; 
+}
+
+.scroll::-webkit-scrollbar {
+    width: 10px;
+  }
+.scroll::-webkit-scrollbar-track {
+  background: transparent; 
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius : 10px;
+}
